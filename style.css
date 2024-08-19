@@ -1,0 +1,63 @@
+body {
+    color: rgb(211, 60, 0);
+    background: rgb(121, 0, 0);   
+    margin: 0px; 
+    font-family: "Oswald", sans-serif;   
+}  
+header{
+    border-bottom:solid 2px rgb(255, 140, 0) ;
+    padding: 0px;
+    padding-left: 500px;
+    font-size: 100px;
+    color: rgb(255, 140, 0);
+}  
+section {
+    background:yellow ;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.chamada-texto {
+margin-right: 0px;
+}
+h1{
+    font-size: 50px;
+}
+p {
+    font-size: 20px;
+}
+h2 {
+    font-size: 100px;
+}
+img{
+    height: 225px;
+}
+.categoria {
+    display:flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .chamada {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+  }
+  .Mão{
+    background: orange;
+  }
+  .categoria img {
+    opacity: 0.5;
+    height: 250px;
+}
+.categoria img:hover {
+ opacity: 2;
+ border: 5px solid red;
+}
